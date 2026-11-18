@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Management System</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        /* Top Blue Header */
+        .header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .header p {
+            margin: 8px 0 0 0;
+            font-size: 16px;
+            color: #e2e8f0;
+        }
+        /* Main Container Card */
+        .main-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .card {
+            background: white;
+            width: 100%;
+            max-width: 850px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .card h2 {
+            color: #007bff;
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 35px;
+        }
+        /* Table Design */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #d1d5db;
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        td {
+            height: 45px;
+        }
+        /* Footer */
+        .footer {
+            background-color: #212529;
+            color: #adb5bd;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Header -->
+    <div class="header">
+        <h1>Vehicle Management System</h1>
+        <p>Node.js Lab Examination Project</p>
+    </div>
+
+    <!-- Center Content Card -->
+    <div class="main-container">
+        <div class="card">
+            <h2>Vehicle Information</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Vehicle Name</th>
+                        <th>Vehicle Number</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Hyundai Creta</td>
+                        <td>HR26AB1234</td>
+                        <td>SUV</td>
+                        <td>1500000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maruti Swift</td>
+                        <td>DL8CAF5030</td>
+                        <td>Hatchback</td>
+                        <td>750000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Honda City</td>
+                        <td>UP16XY9999</td>
+                        <td>Sedan</td>
+                        <td>1100000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="footer">
+        © 2026 Vehicle Management System
+    </div>
+
+</body>
+</html>
